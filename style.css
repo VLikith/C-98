@@ -1,0 +1,37 @@
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: green;
+}
+img:hover{
+    border-radius: 140px;
+}
+img{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 6px 8px 0 green;
+}
+body{
+    background-color: black;
+}
+.column{
+    display: inline;
+    padding: 10px;
+}
+#camera{
+    width: 500px;
+    height: 400px;
+    border: 1px solid green;
+}
+h4{
+    color: green;
+}
+h1{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold; 
+}

@@ -58,7 +58,7 @@ function takesnap()
         if(imgid=="selfie2"){
             document.getElementById("result2").innerHTML="<img id='img2' src='"+data_url+"'>";
         }
-        if(imgid=="selfie2"){
+        if(imgid=="selfie3"){
             document.getElementById("result3").innerHTML="<img id='img3' src='"+data_url+"'>";
         }
     });

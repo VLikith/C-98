@@ -8,7 +8,7 @@ function save()
 recognition.onresult=function(event)
 {
     console.log(event);
-    var hello=event.results[0][0].transcript.toLowercase();
+    var hello=event.results[0][0].transcript.toLowerCase();
     console.log(hello);
     if (hello=="samosa"){
         speak();
